@@ -7,7 +7,7 @@ body {
 }
 
 .blockOne{
-    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-image: url(../img/pexels-photo-248515.png);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
