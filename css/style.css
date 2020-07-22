@@ -11,11 +11,8 @@ body {
 
     box-sizing: border-box;
     min-height: 450px;
-    /*padding: 30px 30px;*/
     display: block;
     color: white;
-    /*background-color: dodgerblue;*/
-    /*z-index: 1;*/
 }
 .blockOneBg {
     position: absolute;
@@ -74,8 +71,16 @@ body {
 .blockTwoContent {
     display: inline-block;
     padding-top: 30px;
+    padding-bottom: 10px;
     width: 55vw;
 
+}
+
+.blockTwoContent > p {
+    display: inline-block;
+    width: 26vw;
+    min-width: 300px;
+    margin: 0px 10px;
 }
 
 .blockThree {
@@ -163,7 +168,6 @@ body {
 
 .contactUs > .content, .aboutUs > .content  {
     font-size: 14pt;
-    /*font-weight: bold;*/
     padding: 30px 35px;
 }
 
@@ -183,7 +187,6 @@ footer {
     color: whitesmoke;
     background-color: black;
     padding: 40px;
-    /*padding-bottom: 40px;*/
 }
 
 .poweredBy > a {
